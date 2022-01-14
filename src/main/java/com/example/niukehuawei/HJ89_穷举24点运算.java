@@ -45,9 +45,6 @@ public class HJ89_穷举24点运算 {
 
         // 准备 回溯
         int[] symbol = {43,45,42,47}; // + - * / ascii码
-        final boolean CALCULATE = true;
-        final boolean NUM = false;
-        boolean flag = CALCULATE;
 
         // 路径
         int[] result = new int[7]; // 存储表达式
